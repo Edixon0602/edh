@@ -1,10 +1,32 @@
-const Components = {
-  'Single Image' : {
-    'id' : 'singleImage',
+const Components = [
+  {
+    'id': 'content',
+    'name': 'Content',
   },
-  'Single Video' : {
-    'id' : 'singleVideo',
-  }
-}
+  {
+    'id': 'singleImage',
+    'name': 'Single Image',
+  },
+  {
+    'id': 'buttons',
+    'name': 'Buttons',
+  },
+  {
+    'id': 'faqs',
+    'name': 'FAQs',
+  },
+  {
+    'id': 'carousel',
+    'name': 'Carousel',
+  },
+  {
+    'id': 'postsGrid',
+    'name': 'Posts Grid',
+  },
+  {
+    'id': 'tabs',
+    'name': 'Tabs',
+  },
+]
 
 export default Components

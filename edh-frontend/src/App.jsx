@@ -9,6 +9,7 @@ import Theme from "./Pages/Theme";
 function App() {
 
   return (
+    <>
     <BrowserRouter>
       <Routes>
         <Route path='/' element={<Page><Home /></Page>} />
@@ -16,6 +17,7 @@ function App() {
         <Route path='/theme' element={<Page><Theme /></Page>} />
       </Routes>
     </BrowserRouter>
+    </>
   )
 }
 
